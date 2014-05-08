@@ -3,9 +3,13 @@
 	font-size: 15px;
 	font-weight: bold;
 	display: inline;
-	color: #99CCFF;
+	color: #3366FF;
 }
 
 .nav a{
 	color: #FFFFFF;
+}
+
+body {
+	background-color: #99CCFF;
 }
