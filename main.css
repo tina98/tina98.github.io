@@ -2,8 +2,11 @@
 
 	font-size: 15px;
 	font-weight: bold;
-	display: inline;
 	color: #3366FF;
+}
+
+.nav li {
+	display: inline;
 }
 
 .nav a{
