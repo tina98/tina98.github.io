@@ -1,8 +1,11 @@
-.nav li {
-	color: #FFFFFF;
+.nav {
+
 	font-size: 15px;
 	font-weight: bold;
 	display: inline;
 	background-color: #99CCFF;
+}
 
+.nav a{
+	color: #FFFFFF;
 }
