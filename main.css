@@ -1,17 +1,12 @@
-.nav {
 
-	font-size: 15px;
-	font-weight: bold;
-	color: #3366FF;
-}
-
-.nav li {
-	display: inline;
-}
 
 .nav a{
 	color: #FFFFFF;
 	padding: 50px 50px;
+	display: inline;
+	font-size: 15px;
+	font-weight: bold;
+	
 }
 
 body {
