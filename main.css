@@ -3,10 +3,11 @@
 .nav a{
 	color: #FFFFFF;
 	padding: 50px 50px;
-	display: inline;
 	font-size: 15px;
 	font-weight: bold;
-	
+}
+.nav li {
+	display: inline;
 }
 
 body {
