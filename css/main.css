@@ -29,3 +29,25 @@
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
 }
+
+/*bio CSS*/
+#bio {
+	background-color: #00CCFF;
+	padding: 50px 50px;
+	font-family: 'Poiret One', cursive;
+}
+#bio .info p{
+	font-size: 25px;
+	color: #330066;
+}
+#bio .info a{
+	font-size:26px;
+	color: #003300;
+	text-decoration: underline;
+}
+#bio .info a:hover{
+	color: #00CC33;
+}
+#bio .choices{
+	font-size:20px;
+}
