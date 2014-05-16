@@ -17,3 +17,16 @@
 	padding: 25px 50px;
 	
 }
+
+/*Tina CSS*/
+.tina {
+	position: center;
+}
+.tina h1{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+}
+.tina p,a{
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+}
