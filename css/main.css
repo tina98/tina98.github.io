@@ -40,15 +40,16 @@
 	font-size: 25px;
 	color: #FFFFFF;
 }
-/*
+
 #bio .info a{
-	font-size:26px;
-	color: #FFFFFF;
+	font-size:25px;
+	color: #CCFFFF;
 	text-decoration: underline;
 }
 #bio .info a:hover{
-	color: #00CC33;
+	color: #99FF99;
 }*/
 #bio .choices{
 	font-size:20px;
+	color: #FFFFFF;
 }
