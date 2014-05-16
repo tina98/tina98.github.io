@@ -13,7 +13,7 @@
 
 .nav {
 	background-color: #330066;
-	padding: 25px 50px;
+	padding: 25px 20px;
 	
 }
 
@@ -27,5 +27,5 @@
 }
 .tina p,a{
 	font-family: 'Poiret One', cursive;
-	font-size: 20px;
+	font-size: 30px;
 }
