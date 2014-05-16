@@ -3,15 +3,16 @@
 .nav a{
 	color: #FFFFFF;
 	padding: 50px 50px;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Poiret One', cursive;
+	
 }
 .nav li {
 	display: inline;
 }
 
 .nav {
-	background-color: #99CCFF;
-	height: 100px;
+	background-color: #330066;
+	padding: 25px 50px;
 }
