@@ -2,7 +2,7 @@
 
 .nav a{
 	color: #FFFFFF;
-	padding: 50px 50px;
+	padding: 50px 25px;
 	font-size: 20px;
 	font-family: 'Poiret One', cursive;
 	
@@ -32,22 +32,23 @@
 
 /*bio CSS*/
 #bio {
-	background-color: #00CCFF;
+	background-color: #00814;
 	padding: 50px 50px;
 	font-family: 'Poiret One', cursive;
 }
 #bio .info p{
 	font-size: 25px;
-	color: #330066;
+	color: #FFFFFF;
 }
+/*
 #bio .info a{
 	font-size:26px;
-	color: #003300;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 #bio .info a:hover{
 	color: #00CC33;
-}
+}*/
 #bio .choices{
 	font-size:20px;
 }
