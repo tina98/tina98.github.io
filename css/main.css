@@ -59,25 +59,25 @@
 }
 
 /*bio CSS*/
-#bio {
+#bioinfo {
 	background-color: #0081C4;
 	padding: 75px 150px;
 	font-family: 'Poiret One', cursive;
 }
-#bio .info p{
+#bioinfo .info p{
 	font-size: 25px;
 	color: #FFFFFF;
 }
 
-#bio .info a{
+#bioinfo .info a{
 	font-size:25px;
 	color: #CCFFFF;
 	text-decoration: underline;
 }
-#bio .info a:hover{
+#bioinfo .info a:hover{
 	color: #99FF99;
 }
-#bio .choices{
+#bioinfo .choices{
 	font-size:23px;
 	color: #FFFFFF;
 }
