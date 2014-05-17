@@ -20,10 +20,12 @@
 }
 
 .blank {
-	opacity: 0;
+	opacity: 1;
 	background-color: #000000;
 	height: 100px;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 	
 .nav:hover{
@@ -36,6 +38,7 @@
 	padding: 250px 150px;
 	background-color: #F7FBFF;
 	color: #1B4775;
+	position: relative;
 }
 
 .tina h1{
