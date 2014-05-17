@@ -19,7 +19,7 @@
 	width: 100%;
 }
 .nav:hover{
-	opacity: 100%;
+	opacity: 1;
 }
 
 /*Tina CSS*/
@@ -40,9 +40,8 @@
 #biotitle{
 	background: url('http://fc08.deviantart.net/fs44/f/2009/077/1/a/Nebula_Effects_Fractal_Stock_by_ineedfire.jpg') 50% 0 no-repeat fixed;
 	color: #FFFFFF;
-	height: 250px;
 	text-align: center;
-	padding: 50px;
+	padding: 25px 50px;
 	font-family: 'Lobster', cursive;
 	font-size: 75px;
 }
