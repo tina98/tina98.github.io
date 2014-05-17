@@ -33,7 +33,7 @@
 /*Tina CSS*/
 #home {
 	text-align:center;
-	padding: 250px 150px 100px;
+	padding: 250px 150px 0px;
 	background-color: #F7FBFF;
 	color: #1B4775;
 }
