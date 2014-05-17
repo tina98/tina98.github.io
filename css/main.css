@@ -43,13 +43,13 @@
 	text-align: center;
 	padding: 25px 50px;
 	font-family: 'Lobster', cursive;
-	font-size: 75px;
+	font-size: 100px;
 }
 
 /*bio CSS*/
 #bio {
 	background-color: #0081C4;
-	padding: 150px 150px;
+	padding: 75px 150px;
 	font-family: 'Poiret One', cursive;
 }
 #bio .info p{
