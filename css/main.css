@@ -42,7 +42,7 @@
 	font-size: 30px;
 }
 
-/*bio picture*/
+/*title heading*/
 .title{
 	background: url('http://fc08.deviantart.net/fs44/f/2009/077/1/a/Nebula_Effects_Fractal_Stock_by_ineedfire.jpg') 50% 0 no-repeat fixed;
 	color: #FFFFFF;
@@ -52,26 +52,60 @@
 	font-size: 100px;
 }
 
-/*bio CSS*/
-#bioinfo {
-	background-color: #0081C4;
-	padding: 75px 150px;
+/*information pages*/
+.info {
 	font-family: 'Poiret One', cursive;
+	padding: 75px 150px;
 }
-#bioinfo .info p{
+.info p{
 	font-size: 25px;
 	color: #FFFFFF;
 }
 
-#bioinfo .info a{
+.info a{
 	font-size:25px;
 	color: #CCFFFF;
 	text-decoration: underline;
 }
-#bioinfo .info a:hover{
+.info a:hover{
 	color: #99FF99;
+}
+
+/*bio CSS*/
+#bioinfo {
+	background-color: #0081C4;
 }
 #bioinfo .choices{
 	font-size:23px;
 	color: #FFFFFF;
+}
+
+/*dreams CSS*/
+#dreamsinfo {
+	background-color: #6633FF;
+}
+#dreamsinfo div {
+  width: 500px;
+  margin: 10px
+}
+ 
+#dreamsinfo ol {
+  color: #ccc;
+  list-style-type: none;
+}
+ 
+#dreamsinfo ol li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+#dreamsinfo li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+}
+ 
+#dreamsinfo span {
+  position: absolute;
 }
