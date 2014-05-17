@@ -17,8 +17,7 @@
 	position: fixed;
 	opacity: .8;
 	width: 100%;
-	height: 500px;
-}
+	
 .nav:hover{
 	opacity: 1;
 }
@@ -28,6 +27,8 @@
 	text-align:center;
 	padding: 150px 150px;
 	color: #F7FBFF;
+	height: 500px;
+}
 }
 .tina h1{
 	font-size: 150px;
