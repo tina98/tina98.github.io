@@ -12,11 +12,12 @@
 }
 
 .nav {
-	background-color: #330066;
+	background-color: #1B4775;
 	padding: 25px 20px;
 	position: fixed;
 	opacity: .8;
 	width: 100%;
+	height: 500px;
 }
 .nav:hover{
 	opacity: 1;
@@ -26,6 +27,7 @@
 .tina {
 	text-align:center;
 	padding: 150px 150px;
+	color: #F7FBFF;
 }
 .tina h1{
 	font-size: 150px;
