@@ -14,7 +14,8 @@
 .nav {
 	background-color: #330066;
 	padding: 25px 20px;
-	
+	position: fixed;
+	opacity: .5;
 }
 
 /*Tina CSS*/
