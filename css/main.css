@@ -15,12 +15,17 @@
 	background-color: #330066;
 	padding: 25px 20px;
 	position: fixed;
-	opacity: .5;
+	opacity: .8;
+	width: 100%;
+}
+.nav:hover{
+	opacity: 100%;
 }
 
 /*Tina CSS*/
 .tina {
 	text-align:center;
+	padding: 150px 150px;
 }
 .tina h1{
 	font-size: 150px;
