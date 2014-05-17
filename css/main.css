@@ -19,13 +19,7 @@
 	width: 100%;
 }
 
-.blank {
-	opacity: 0;
-	background-color: #000000;
-	height: 200px;
-	width: 100%;
-}
-	
+
 .nav:hover{
 	opacity: 1;
 }
@@ -49,11 +43,11 @@
 }
 
 /*bio picture*/
-#biotitle{
+#bio{
 	background: url('http://fc08.deviantart.net/fs44/f/2009/077/1/a/Nebula_Effects_Fractal_Stock_by_ineedfire.jpg') 50% 0 no-repeat fixed;
 	color: #FFFFFF;
 	text-align: center;
-	padding: 25px 50px;
+	padding: 125px 50px 25px;
 	font-family: 'Lobster', cursive;
 	font-size: 100px;
 }
