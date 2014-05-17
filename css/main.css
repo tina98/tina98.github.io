@@ -105,7 +105,8 @@
  
 #dreamsinfo li p {
   /*font: 12px/1.5 Helvetica, sans-serif;*/
-  padding-left: 60px;
+  padding: 10px 60px;
+  
   color: #555;
 }
  
