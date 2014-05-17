@@ -20,7 +20,7 @@
 }
 
 .blank {
-	opacity: 1;
+	opacity: 0;
 	background-color: #000000;
 	height: 100px;
 	width: 100%;
@@ -34,7 +34,7 @@
 #home {
 	text-align:center;
 	padding: 250px 150px 0px;
-	background-color: #F7FBFF;
+	background-color: #F2F9FF;
 	color: #1B4775;
 }
 
