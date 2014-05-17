@@ -86,10 +86,10 @@
 #dreamsinfo {
 	background-color: #6633FF;
 }
-#dreamsinfo div {
+/*#dreamsinfo div {
   width: 500px;
   margin: 10px
-}
+}*/
  
 #dreamsinfo ol {
   color: #ffffff;
@@ -100,7 +100,7 @@
   position: relative;
   font-size: 45px;
   /*font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;*/
-  margin-bottom: 20px;
+ /* margin-bottom: 20px;*/
 }
  
 #dreamsinfo li p {
