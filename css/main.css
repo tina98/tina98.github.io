@@ -27,13 +27,15 @@
 .tina {
 	text-align:center;
 	padding: 150px 150px;
-	color: #F7FBFF;
+	background-color: #F7FBFF;
 	height: 500px;
+	color: #1B4775;
 }
 
 .tina h1{
 	font-size: 150px;
 	font-family: 'Lobster', cursive;
+
 }
 .tina p,a{
 	font-family: 'Poiret One', cursive;
