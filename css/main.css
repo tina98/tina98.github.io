@@ -98,7 +98,7 @@
  
 #dreamsinfo ol li {
   position: relative;
-  font: bold 45px;
+  font-size: 45px;
   /*font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;*/
   margin-bottom: 20px;
 }
