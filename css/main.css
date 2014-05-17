@@ -36,6 +36,17 @@
 	font-size: 30px;
 }
 
+/*bio picture*/
+#biotitle{
+	background: url('img/yas.jpg') 50% 0 no-repeat fixed;
+	color: #FFFFFF;
+	height: 250px;
+	text-align: center;
+	padding: 50px;
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+}
+
 /*bio CSS*/
 #bio {
 	background-color: #0081C4;
