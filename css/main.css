@@ -28,7 +28,7 @@
 /*Tina CSS*/
 #home {
 	text-align:center;
-	padding: 250px 150px;
+	padding: 250px 150px 0px;
 	background-color: #F2F9FF;
 	color: #1B4775;
 }
@@ -41,6 +41,13 @@
 .tina p,a{
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
+}
+
+/*blank*/
+.blank {
+	background: #000000;
+	height: 40px;
+	width: 100%;
 }
 
 /*title heading*/
