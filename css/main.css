@@ -76,8 +76,10 @@
 	background-color: #0081C4;
 }
 #bioinfo .choices{
+	font-family: 'Poiret One', cursive;
 	font-size:23px;
 	color: #FFFFFF;
+	padding: 75px 150px;
 }
 
 /*dreams CSS*/
