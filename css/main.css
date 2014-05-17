@@ -24,8 +24,6 @@
 	background-color: #000000;
 	height: 100px;
 	width: 100%;
-	/*position: absolute;
-	bottom: 0; */
 }
 	
 .nav:hover{
@@ -35,10 +33,9 @@
 /*Tina CSS*/
 #home {
 	text-align:center;
-	padding: 250px 150px;
+	padding: 250px 150px 100px;
 	background-color: #F7FBFF;
 	color: #1B4775;
-	/*position: relative;*/
 }
 
 .tina h1{
