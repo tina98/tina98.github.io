@@ -10,7 +10,7 @@ width: 100%;
     text-align: center;
   top: 150px;
   width: 100px;
-  font-size: 500px;
+  font-size: 100px;
   color: white;
   font-family: 'Lobster', cursive;
 }
@@ -29,7 +29,7 @@ position: relative;
   position: absolute;
   text-align: center;
   top: 200px;
-  font-size: 200px;
+  font-size: 100px;
   color: white;
   width: 100%;
   font-family: 'Poiret One', cursive;
