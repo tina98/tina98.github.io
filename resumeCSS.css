@@ -1,0 +1,14 @@
+#home {
+background: url("http://images.cdn.fotopedia.com/lsjJ4SS6HZ0-Lf5S1Zkvu2E-hd.jpg") 50% 0 repeat fixed; min0height: 1000px;
+}
+
+#about {
+background: url("http://wallpoper.com/images/00/43/49/17/stanford-university_00434917.jpg") 50% 0 no-repat min0height: 1000px;
+}
+
+p {
+  color: blue;
+}
+h1{
+  font: 500px;
+}
