@@ -1,11 +1,11 @@
 #home {
-background: url("http://images.cdn.fotopedia.com/lsjJ4SS6HZ0-Lf5S1Zkvu2E-hd.jpg") 50% 0 repeat fixed; min-height: 1000px;
+background: url("http://images.cdn.fotopedia.com/lsjJ4SS6HZ0-Lf5S1Zkvu2E-hd.jpg") 50% 0 repeat fixed; min-height: 750px;
 width: 100%;
  max-width: 1920px;
  position: relative;
 }
 #home article {
-  height: 500px; 
+  height: 250px; 
   position: absolute;
     text-align: center;
   top: 150px;
@@ -17,7 +17,7 @@ width: 100%;
 
 #school {
 background: url("http://e.fastcompany.net/multisite_files/fastcompany/poster/2014/01/3025059-poster-p-1this-bell-labs-campus-was-the-googleplex-of-its-day-and-now-its-dead.jpg") 50% 0 no-repeat; min-height: 1000px; 
-height: 1000px;
+height: 500px;
 margin: 0 auto;
 width: 100%;
 max-width: 1920px;
@@ -25,7 +25,7 @@ position: relative;
 }
 
 #school article{
-  height: 500px;
+  height: 200px;
   position: absolute;
   text-align: center;
   top: 200px;
