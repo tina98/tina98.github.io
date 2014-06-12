@@ -6,9 +6,6 @@
 /*background: url("http://wallpoper.com/images/00/43/49/17/stanford-university_00434917.jpg") 50% 0 no-repat min0height: 1000px;*/
 /*}*/
 
-p {
-  color: blue;
-}
-h1 {
-  font: 500px;
+#doot {
+ font-size: 500px; 
 }
