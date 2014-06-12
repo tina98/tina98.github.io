@@ -35,9 +35,22 @@ width: 100%;
 }
 
 
-p {
-  color: blue;
+#doot {
+ animation: mymove 5s infinite;
+ -webkit-animation :mymove 5s infinite;
 }
-h1{
-  font: 500px;
+@keyframes mymove
+{
+ 0% {color: blue;}
+ 25% {color: red;}
+ 75% {color: yellow;}
+ 100% {color: blue;}
 }
+@-webkit-keyframes mymove{
+ 0% {color: blue;}
+ 25% {color: red;}
+ 75% {color: yellow;}
+ 100% {color: blue;}
+ 
+}
+
