@@ -4,6 +4,6 @@ $(function() {
 				event.preventDefault();
 			});
 		});
-function work(){
-document.getElementById("doot").innerHTML="wiiiiiirsjdkf";
-}
+// function work(){
+// document.getElementById("doot").innerHTML="wiiiiiirsjdkf";
+// }
