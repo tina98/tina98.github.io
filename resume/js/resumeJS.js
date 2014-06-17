@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$("#hello").text("sdfs");
+$("#hello").remove();
   // $(window).scroll(function() {
   //   drawLine( $('#route'),
   //             document.getElementById('path') );
