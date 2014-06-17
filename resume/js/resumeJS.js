@@ -1,5 +1,9 @@
 $(document).ready(function(){
 $("#hello").html("asdf");
+$( "#hello" ).on( "mouseover", function() {
+  $(this ).css( "color", "red" );
+});
+</sc
   // $(window).scroll(function() {
   //   drawLine( $('#route'),
   //             document.getElementById('path') );
