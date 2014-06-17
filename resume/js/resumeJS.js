@@ -5,7 +5,9 @@ $(document).ready(function(){
               document.getElementById('path') );
   });
   
-
+  // init the line length
+    drawLine( $('#route'),
+              document.getElementById('path') );
 
   //draw the line
   function drawLine(container, line){
@@ -16,8 +18,5 @@ $(document).ready(function(){
         length = percentDone * pathLength;
     line.style.strokeDasharray = [ length ,pathLength].join(' ');
   }
-    // init the line length
-    drawLine( $('#route'),
-              document.getElementById('path') );
   
 });
