@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$("#hello").text("asdf");
+// $("#hello").text("asdf");
   // $(window).scroll(function() {
   //   drawLine( $('#route'),
   //             document.getElementById('path') );
