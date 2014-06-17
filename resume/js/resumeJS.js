@@ -45,6 +45,7 @@
 //   }
   
 // });
+$(document).ready(function(){
 //On scroll call the draw function
 $(window).scroll(function() {
     drawLines();
@@ -68,3 +69,4 @@ function drawLine(container, line){
   line.style.strokeDasharray = [length,pathLength].join(' ');
   console.log("strokeDasharray: "+[length,pathLength].join(' '));
 }
+})
