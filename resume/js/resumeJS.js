@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
     drawLine( $('#route'),
-              document.getElementById('path') );
+              $('path') );
   });
   
   // // init the line length
