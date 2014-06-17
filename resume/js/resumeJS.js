@@ -1,13 +1,5 @@
 $(document).ready(function(){
 
-  $(window).scroll(function() {
-    drawLine( $('#route'),
-              document.getElementById('path') );
-  });
-  
-  // init the line length
-    drawLine( $('#route'),
-              document.getElementById('path') );
 
   //draw the line
   function drawLine(container, line){
@@ -18,5 +10,16 @@ $(document).ready(function(){
         length = percentDone * pathLength;
     line.style.strokeDasharray = [ length ,pathLength].join(' ');
   }
+
+  $(window).scroll(function() {
+    drawLine( $('#route'),
+              document.getElementById('path') );
+  });
+  
+  // // init the line length
+  //   drawLine( $('#route'),
+  //             document.getElementById('path') );
+
+
   
 });
