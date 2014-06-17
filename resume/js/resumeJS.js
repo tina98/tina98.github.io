@@ -4,11 +4,11 @@ $(document).ready(function(){
   //draw the line
   function drawLine(container, line){
     
-    var pathLength = line.getTotalLength(),
-        maxScrollTop = $(document).height() - $(window).height(),
-        percentDone = $(window).scrollTop() / maxScrollTop,
-        length = percentDone * pathLength;
-    line.style.strokeDasharray = [ length ,pathLength].join(' ');
+    var pathLength = line.getTotalLength();
+      var  maxScrollTop = $(document).height() - $(window).height();
+      var  percentDone = $(window).scrollTop() / maxScrollTop;
+       var length = percentDone * pathLength;
+    line.style.strokeDashArray = [ length ,pathLength].join(' ');
   }
 
   $(window).scroll(function() {
