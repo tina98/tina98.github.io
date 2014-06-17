@@ -5,7 +5,7 @@ $(document).ready(function(){
   function drawLine(container, line){
     
     var pathLength = line.getTotalLength();
-      var  maxScrollTop = $(document).height() - $(window).height();
+      var  maxScrollTop = $("body").height() - $(window).height();
       var  percentDone = $(window).scrollTop() / maxScrollTop;
        var length = percentDone * pathLength;
     line.style.strokeDashArray = [ length ,pathLength].join(' ');
