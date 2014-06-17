@@ -63,10 +63,10 @@ function drawLines(){
 function drawLine(container, line){
   var length = 0;
   var pathLength = line.getTotalLength();
-  var distanceFromTop = container.offset().top + $(window).scrollTop();
+  var distanceFromTop = container.offset().top - $(window).scrollTop();
   var percentDone = 1 - (distanceFromTop / $(window).height());
   length = percentDone * pathLength;
   line.style.strokeDasharray = [length,pathLength].join(' ');
-  console.log("strokeDasharray: "+distanceFromTop);
+  console.log("strokeDasharray: "+$(window).scrollTop());
 }
 })
