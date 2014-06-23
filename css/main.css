@@ -56,7 +56,7 @@
 
 /*title heading*/
 .title{
-	background: url('http://fc08.deviantart.net/fs44/f/2009/077/1/a/Nebula_Effects_Fractal_Stock_by_ineedfire.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/clouds.jpg') 50% 0 no-repeat fixed;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 25px 50px;
@@ -68,6 +68,10 @@
 .info {
 	font-family: 'Poiret One', cursive;
 	padding: 75px 150px;
+	color: #FFFFFF;
+	background-color: #0081C4;
+	font-size:23px;
+
 }
 .info p{
 	font-size: 25px;
