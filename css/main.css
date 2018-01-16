@@ -1,0 +1,51 @@
+
+html, body {
+    background: #fff;
+    color:#000;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, u, a {
+    color: #0083e8;
+    cursor: pointer;
+}
+#wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+.info {
+    display: inline-block;
+    padding: 2%;
+    vertical-align: top;
+    width: 50%;
+    float:left;
+}
+#mainPicture{
+    padding-top:2em;
+    vertical-align: top;
+    float: right;
+}
+.desktop{
+    display:inline-block;
+}
+.mobile{
+    display:none;
+}
+#hwInfo, #curisInfo, #rsiInfo, #tcInfo, #roverInfo, #me203Info, #me210Info, #sunCarInfo {
+    display: none;
+}
+@media (max-width : 500px) {
+.mobile {display:block;}
+.info{width:100%;}
+.desktop {display:none;}
+}
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
