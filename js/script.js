@@ -1,13 +1,14 @@
 var infos=["#homeInfo", "#hwInfo", "#curisInfo", "#rsiInfo", "#tcInfo", "#roverInfo", "#me203Info", "#me210Info", "#sunCarInfo"];
 function disp(a){
     $('div').not(a+", #wrapper, #main, #mainPicture").hide();
+    
+    $("#wrapper").fadeIn();
+    $(a).fadeIn();
     if ($(a).is("#homeInfo")){
         $("#mainPic").css("border-radius", "50%");
     } else {
         $("#mainPic").css("border-radius", "0");
     }
-    $("#wrapper").fadeIn();
-    $(a).fadeIn();
 }
 $(document).ready(function(){
     $("#helloWorld").click(function(){
