@@ -6,7 +6,7 @@ function disp(a){
         } else {
             $("#mainPic").css("border-radius", "0");
         }
-    );
+    });
     
     $("#wrapper").fadeIn();
     $(a).fadeIn();
