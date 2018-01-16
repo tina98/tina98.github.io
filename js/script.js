@@ -48,4 +48,7 @@ $(document).ready(function(){
         disp("#roverInfo");
         $("#mainPic").attr("src","../img/rover.png");
     });
+    $("#manufacturing").click(function(){
+        disp("#manufacturingInfo");
+        $("#mainPic").attr("src","../img/manufacturing.png");
 });
