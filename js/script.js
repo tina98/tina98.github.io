@@ -1,4 +1,4 @@
-var infos=["#homeInfo", "#hwInfo", "#curisInfo", "#rsiInfo", "#tcInfo", "#roverInfo", "#me203Info", "#me210Info", "#sunCarInfo"];
+var infos=["#homeInfo", "#hwInfo", "#curisInfo", "#rsiInfo", "#tcInfo", "#roverInfo", "#me203Info", "#me210Info", "#sunCarInfo","#manufacturingInfo"];
 function disp(a){
     $('div').not(a+", #wrapper, #main, #mainPicture").hide();
      $("#mainPic").hide();
