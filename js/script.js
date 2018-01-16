@@ -7,14 +7,38 @@ function disp(a){
 $(document).ready(function(){
     $("#helloWorld").click(function(){
         disp("#hwInfo");
-        
+        $("#mainPic").attr("src","img/helloWorld.png");
     });
-    $("#title").click(function(){disp("#homeInfo");});
-    $("#tc").click(function(){disp("#tcInfo");});
-    $("#me203").click(function(){disp("#me203Info");});
-    $("#me210").click(function(){disp("#me210Info");});
-    $("#rsi").click(function(){disp("#rsiInfo");});
-    $("#solarCar").click(function(){disp("#sunCarInfo");});
-    $("#curis").click(function(){disp("#curisInfo");});
-    $("#rover").click(function(){disp("#roverInfo");});
+    $("#title").click(function(){
+        disp("#homeInfo");
+        $("#mainPic").attr("src","img/tina.jpg");
+    });
+    $("#tc").click(function(){
+        disp("#tcInfo");
+        $("#mainPic").attr("src","img/tc.png");
+    });
+    $("#me203").click(function(){
+        disp("#me203Info");
+        $("#mainPic").attr("src","img/me203.png");
+    });
+    $("#me210").click(function(){
+        disp("#me210Info");
+        $("#mainPic").attr("src","img/me210.png");
+    });
+    $("#rsi").click(function(){
+        disp("#rsiInfo");
+        $("#mainPic").attr("src","img/rsi.png");
+    });
+    $("#solarCar").click(function(){
+        disp("#sunCarInfo");
+        $("#mainPic").attr("src","img/solarCar.png");
+    });
+    $("#curis").click(function(){
+        disp("#curisInfo");
+        $("#mainPic").attr("src","img/curis.png");
+    });
+    $("#rover").click(function(){
+        disp("#roverInfo");
+        $("#mainPic").attr("src","img/rover.png");
+    });
 });
