@@ -31,7 +31,7 @@ h1, u, a {
 .mobile{
     display:none;
 }
-#hwInfo, #curisInfo, #rsiInfo, #tcInfo, #roverInfo, #me203Info, #me210Info, #sunCarInfo {
+#hwInfo, #curisInfo, #rsiInfo, #tcInfo, #roverInfo, #me203Info, #me210Info, #sunCarInfo, #manufacturingInfo {
     display: none;
 }
 @media only screen and (max-width: 500px) {
