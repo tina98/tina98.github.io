@@ -51,4 +51,5 @@ $(document).ready(function(){
     $("#manufacturing").click(function(){
         disp("#manufacturingInfo");
         $("#mainPic").attr("src","../img/manufacturing.png");
+    });
 });
